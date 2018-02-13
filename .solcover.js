@@ -1,4 +1,4 @@
 module.exports = {
 	norpc: true,
-	port: 8545
+	port: 8555
 }

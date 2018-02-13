@@ -9,16 +9,13 @@ module.exports = {
     coverage: {
       host: "localhost",
       network_id: "*",
-      port: 8545
+      port: 8555,
+      gas: 0xfffffffffff,
+      gasPrice: 0x01
     }
   },
   mocha: {
   	//grep: "presaleAllocation"
-  },
-  rpc: {
-    host: "localhost",
-    gas: 8000029 ,
-    port: 8545
   },
   solc: {
     optimizer: {
